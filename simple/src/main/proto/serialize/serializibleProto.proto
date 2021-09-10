@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message Test{
+  int64 field = 1;
+}

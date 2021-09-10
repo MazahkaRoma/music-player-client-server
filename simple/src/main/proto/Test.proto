@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service TestService{
+  rpc TestSend(Request) returns(Answer);
+}
+
+message Request{
+  int64 field = 1;
+}
+
+message Answer{
+  int32 field = 1;
+}
